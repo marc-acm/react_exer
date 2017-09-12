@@ -31,7 +31,7 @@ class Product extends Component {
     return (
       <div>
      <p>{this.props.name} = ${this.props.price}</p>
-      <button className="btn btn-primary" onClick={this.buy}>+</button>
+      <button className="btn btn-primary" onClick={this.buy}>Deposit</button>
       <button className="btn btn-primary" onClick={this.show}>Show</button>
       <button className="btn btn-primary" onClick={this.bawas}>-</button>
       <h3>{this.state.qty}</h3>
